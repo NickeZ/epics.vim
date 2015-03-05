@@ -1,0 +1,13 @@
+au BufRead,BufNewFile *.tpl-arch        setfiletype epicsArch
+au BufRead,BufNewFile *.tpl-req         setfiletype epicsArch
+au BufRead,BufNewFile *.arch*           setfiletype epicsArch
+au BufRead,BufNewFile *.req             setfiletype epicsArch
+au BufRead,BufNewFile *.db              setfiletype epicsDb
+au BufRead,BufNewFile *.dbd             setfiletype epicsDb
+au BufRead,BufNewFile *.template        setfiletype epicsDb
+au BufRead,BufNewFile *.tpl-db          setfiletype epicsDb
+au BufRead,BufNewFile *.substitutions   setfiletype epicsSub
+au BufRead,BufNewFile *.sub-*           setfiletype epicsSub
+au BufRead,BufNewFile *.st              setfiletype epicsSNL
+au BufRead,BufNewFile *.stt             setfiletype epicsSNL
+au BufRead,BufNewFile *.alhConfig       setfiletype epicsAlh
