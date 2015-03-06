@@ -10,7 +10,7 @@ if exists("b:current_syntax")
 endif
 
 " EPICS keywords
-syn keyword     epicsDbSttmnt   record field
+syn keyword     epicsDbSttmnt   record field grecord
 syn keyword     epicsDbType     ai ao bi bo longin longout calc calcout
 syn keyword     epicsDbType     compress dfanout event fanout mbbi mbbo
 syn keyword     epicsDbType     mbbiDirect mbboDirect permissive sel seq
