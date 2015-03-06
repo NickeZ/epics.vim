@@ -11,7 +11,7 @@ Original source is at [EPICS maillist](http://www.aps.anl.gov/epics/tech-talk/20
 Add to .vimrc:
 
 ```
-Plugin 'nickez/epics.vim'
+Plugin 'NickeZ/epics.vim'
 ```
 
 To install, run `:PluginInstall` in vim.
