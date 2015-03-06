@@ -1,7 +1,8 @@
 " Vim syntax file
 " Language:     EPICS DB or DBD
-" Maintainer:   Steve Lewis <salewis@computer.org>
-" Last Change:  2010 Jun 17
+" Originator:   Steve Lewis
+" Maintainer:   Bruce Hill, bhill@slac.stanford.edu
+" Last Change:  2015 Jan 26
 
 " Quit when a (custom) syntax file was already loaded
 if exists("b:current_syntax")
@@ -19,7 +20,7 @@ syn keyword     epicsDbType     scalcout acalcout busy scanparm sscan
 syn keyword     epicsDbType     asyn motor bsa longSub er erevent
 
 syn keyword     epicsDbField    NAME DESC ASG TSE TSEL DTYP TPRO TIME
-syn keyword     epicsDbField    PROC DISS PACT FLNK STAT SEVR ACKS ACKT UDF
+syn keyword     epicsDbField    PROC DISP DISS PACT FLNK STAT SEVR ACKS ACKT UDF
 syn keyword     epicsDbField    SCAN PINI PHAS EVNT PRIO DISV DISA SDIS DISS
 syn keyword     epicsDbField    INP VAL SIOL SIMS SIML SIMM IVOA IVOV RVAL SVAL
 syn keyword     epicsDbField    OUT DOL OMSL OIF LINR EGUF EGUL OVAL RBV ORBV
@@ -50,7 +51,7 @@ syn keyword     epicsDbField    DLY3 DOL3 DO3 LNK3 DLY4 DOL4 DO4 LNK4
 syn keyword     epicsDbField    DLY5 DOL5 DO5 LNK5 DLY6 DOL6 DO6 LNK6
 syn keyword     epicsDbField    DLY7 DOL7 DO7 LNK7 DLY8 DOL8 DO8 LNK8
 syn keyword     epicsDbField    DLY9 DOL9 DO9 LNK9 DLYA DOLA DOA LNKA
-syn keyword     epicsDbField    FTVL MALM INDX BUSY NORD INAM SNAM PRSV
+syn keyword     epicsDbField    FTVL MALM INDX BUSY NORD RARM RATE PTSS INAM SNAM PRSV
 syn keyword     epicsDbField    LFLG EFLG
 syn keyword     epicsDbField    INPM INPN INPO INPP INPQ INPR INPS INPT INPU
 syn keyword     epicsDbField    M N O P Q R S T U
