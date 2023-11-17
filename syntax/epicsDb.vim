@@ -10,7 +10,7 @@ if exists("b:current_syntax")
 endif
 
 " EPICS keywords
-syn keyword     epicsDbSttmnt   record field grecord
+syn keyword     epicsDbSttmnt   record field grecord info
 syn keyword     epicsDbType     ai ao bi bo longin longout calc calcout
 syn keyword     epicsDbType     compress dfanout event fanout mbbi mbbo
 syn keyword     epicsDbType     mbbiDirect mbboDirect permissive sel seq
@@ -18,6 +18,7 @@ syn keyword     epicsDbType     state stringin stringout sub subArray
 syn keyword     epicsDbType     waveform genSub aSub transform swait
 syn keyword     epicsDbType     scalcout acalcout busy scanparm sscan
 syn keyword     epicsDbType     asyn motor bsa longSub er erevent
+syn keyword     epicsDbType     int64in int64out
 
 syn keyword     epicsDbField    NAME DESC ASG TSE TSEL DTYP TPRO TIME
 syn keyword     epicsDbField    PROC DISP DISS PACT FLNK STAT SEVR ACKS ACKT UDF
@@ -103,6 +104,7 @@ syn keyword     epicsDbField    SMSG CMND ALRT MPTS EXSC XSC PXSC KILL WAIT
 syn keyword     epicsDbField    WCNT AWCT WTNG AWAIT AAWAIT DATA REFD NPTS
 syn keyword     epicsDbField    FPTS FFO CPT DPT PCPT PASM TOLP BSCD ASC
 syn keyword     epicsDbField    PAUS LPAU PDLY DDLY RDLY FAZE ACQM ACQT DSTATE
+syn keyword     epicsDbField    MPST APST SDLY SSCN AFTC
 
 syn keyword     epicsDbConstant PP NPP MS NMS CP CPP CA
 syn keyword     epicsDbConstant NO_ALARM MINOR MAJOR INVALID
