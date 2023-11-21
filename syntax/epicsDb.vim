@@ -18,7 +18,7 @@ syn keyword     epicsDbType     state stringin stringout sub subArray
 syn keyword     epicsDbType     waveform genSub aSub transform swait
 syn keyword     epicsDbType     scalcout acalcout busy scanparm sscan
 syn keyword     epicsDbType     asyn motor bsa longSub er erevent
-syn keyword     epicsDbType     int64in int64out
+syn keyword     epicsDbType     int64in int64out printf
 
 syn keyword     epicsDbField    NAME DESC ASG TSE TSEL DTYP TPRO TIME
 syn keyword     epicsDbField    PROC DISP DISS PACT FLNK STAT SEVR ACKS ACKT UDF
@@ -105,6 +105,7 @@ syn keyword     epicsDbField    WCNT AWCT WTNG AWAIT AAWAIT DATA REFD NPTS
 syn keyword     epicsDbField    FPTS FFO CPT DPT PCPT PASM TOLP BSCD ASC
 syn keyword     epicsDbField    PAUS LPAU PDLY DDLY RDLY FAZE ACQM ACQT DSTATE
 syn keyword     epicsDbField    MPST APST SDLY SSCN AFTC
+syn keyword     epicsDbField    FMT INP0 INP1 INP2 INP3 INP4 INP5 INP6 INP7 INP8 INP9 SIZV LEN IVLS
 
 syn keyword     epicsDbConstant PP NPP MS NMS CP CPP CA
 syn keyword     epicsDbConstant NO_ALARM MINOR MAJOR INVALID
