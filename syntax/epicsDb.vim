@@ -47,11 +47,14 @@ syn keyword     epicsDbField    ZRSV ONSV TWSV THSV FRSV FVSV SXSV SVSV
 syn keyword     epicsDbField    EISV NISV TESV ELSV TVSV TTSV FTSV FFSV
 syn keyword     epicsDbField    B0 B1 B2 B3 B4 B5 B6 B7 B8 B9 BA BB BC BD BE BF
 syn keyword     epicsDbField    LABL OFLG WFLG NVL
-syn keyword     epicsDbField    DLY1 DOL1 DO1 LNK1 DLY2 DOL2 DO2 LNK2
-syn keyword     epicsDbField    DLY3 DOL3 DO3 LNK3 DLY4 DOL4 DO4 LNK4
-syn keyword     epicsDbField    DLY5 DOL5 DO5 LNK5 DLY6 DOL6 DO6 LNK6
-syn keyword     epicsDbField    DLY7 DOL7 DO7 LNK7 DLY8 DOL8 DO8 LNK8
-syn keyword     epicsDbField    DLY9 DOL9 DO9 LNK9 DLYA DOLA DOA LNKA
+syn keyword     epicsDbField    DLY0 DOL0 DO0 LNK0 DLY1 DOL1 DO1 LNK1
+syn keyword     epicsDbField    DLY2 DOL2 DO2 LNK2 DLY3 DOL3 DO3 LNK3
+syn keyword     epicsDbField    DLY4 DOL4 DO4 LNK4 DLY5 DOL5 DO5 LNK5
+syn keyword     epicsDbField    DLY6 DOL6 DO6 LNK6 DLY7 DOL7 DO7 LNK7
+syn keyword     epicsDbField    DLY8 DOL8 DO8 LNK8 DLY9 DOL9 DO9 LNK9
+syn keyword     epicsDbField    DLYA DOLA DOA LNKA DLYB DOLB DOB LNKB
+syn keyword     epicsDbField    DLYC DOLC DOC LNKC DLYD DOLD DOD LNKD
+syn keyword     epicsDbField    DLYE DOLE DOE LNKE DLYF DOLF DOF LNKF
 syn keyword     epicsDbField    FTVL MALM INDX BUSY NORD RARM RATE PTSS INAM SNAM PRSV
 syn keyword     epicsDbField    LFLG EFLG
 syn keyword     epicsDbField    INPM INPN INPO INPP INPQ INPR INPS INPT INPU
