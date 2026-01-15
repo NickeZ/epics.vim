@@ -10,7 +10,7 @@ if exists("b:current_syntax")
 endif
 
 " EPICS keywords
-syn keyword     epicsDbSttmnt   record field grecord info
+syn keyword     epicsDbSttmnt   record field grecord info alias
 syn keyword     epicsDbType     ai ao bi bo longin longout calc calcout
 syn keyword     epicsDbType     compress dfanout event fanout mbbi mbbo
 syn keyword     epicsDbType     mbbiDirect mbboDirect permissive sel seq
@@ -117,8 +117,8 @@ syn keyword     epicsDbConstant DBF_CHAR DBF_LONG DBF_DOUBLE DBF_NO_ACCESS
 syn keyword     epicsDbConstant DBF_UCHAR DBF_USHORT DBF_ULONG
 
 " EPICS comment
-syn match       epicsDbComment  "^#.*$"
-" syn match     epicsDbString   /"[^"]*"/
+syn match       epicsDbComment  "\v#.*$"
+syn region      epicsDbString   start=/\v"/ skip=/\v\\./ end=/\v"/
 
 " String and Character constants
 
